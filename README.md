@@ -8,25 +8,25 @@ System requirements: **GoLang >= 1.10**
 `Some help information about usage:`
 
 ```bash
-./opereta_{OS} -h
+./opereta -h
 ```
 
 `Encrypt phone number (arg encrypt - only INTEGER):`
 
 ```bash
-./opereta_{OS} --encrypt=79012345678
+./opereta --encrypt=79012345678
 ```
 
 `Decrypt phone number:`
 
 ```bash
-./opereta_{OS} --decrypt=wCwrKYcT1552nZ3u690wV-PV7Kwo83cYYm05soyWIdM
+./opereta --decrypt=wCwrKYcT1552nZ3u690wV-PV7Kwo83cYYm05soyWIdM
 ```
 
 `Stdout in JSON:`
 
 ```bash
-./opereta_{OS} --encrypt/decrypt={VALUE} -json
+./opereta --encrypt/decrypt={VALUE} -json
 ```
 
 ### Notice!
