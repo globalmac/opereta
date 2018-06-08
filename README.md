@@ -54,5 +54,5 @@ System requirements: **GoLang >= 1.10**
 Example for Linux (amd64):
 
 ```bash
-$ env GOOS=linux GOARCH=amd64 go build -o SUPER_APP main.go
+$ env GOOS=linux GOARCH=amd64 go build -o {APP_NAME} main.go
 ```
